@@ -1,0 +1,23 @@
+<assembly>   
+	<id>distribution</id>    
+	<!-- specify the output formats -->   
+	<formats>     
+		<format>zip</format>   
+	</formats>    
+	<!-- include all runtime libraries in target folder of the output file -->   
+	<dependencySets>     
+		<dependencySet>       
+			<outputDirectory></outputDirectory>       
+			<scope>runtime</scope>     
+		</dependencySet>   
+	</dependencySets>	
+  	<fileSets>          
+    	<fileSet>        
+      	<directory>resources/bin</directory> 
+       	<outputDirectory></outputDirectory>        
+    	<includes>         
+    		<include>*.cmd</include>        
+    	</includes>     
+    	</fileSet>   
+    </fileSets> 
+</assembly> 

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+  <page>myInfo/MyInfoExplanation</page>
+  <resource>myInfo/MyInfoExplanation</resource>
+  <image>
+    <src>../cdp_static/images/myinfo_erklaerung.jpg</src>
+    <width>802a</width>
+    <height>142a</height>
+    <alt>Text</alt>
+    <title>Text</title>
+  </image>
+  <title>Meine Info.</title>
+  <heading>Nachrichten an Ihr Fahrzeug schicken und direkt
+		verwenden.</heading>
+  <p>
+		Meine Info erm�glicht es Ihnen und autorisierten Personen, eine Nachricht
+		(inkl. Navigationsziel und Telefonnummer) ins Fahrzeug zu �bermitteln.
+		Damit k�nnen Sie die Adresse im Fahrzeug per Tastendruck direkt in das
+		Navigationssystem �bernehmen oder die Telefonnummer �ber Ihr mit Bluetooth 
+		gekoppeltes Telefon w�hlen. Diese Funktion steht Ihnen hier �ber "Meine Info senden" 
+		oder �ber ausgew�hlte Partner wie z.B. Google Maps, ViaMichelin und HRS zur Verf�gung.
+	 	</p>
+  <section1>
+    <heading>Nutzungsbedingungen.</heading>
+    <p>
+        Jeder Nutzer ist verpflichtet, alle Inhalte, die er �ber die Dienste und sonstigen Leistungen erh�lt, ausschlie�lich f�r den pers�nlichen Gebrauch zu verwenden. Insbesondere ist es dem Nutzer verboten, die Inhalte selbst oder durch Dritte zu bearbeiten, zu �ndern, weiterzugeben, gewerblich zu nutzen und/oder zu ver�ffentlichen, sofern BMW hierzu nicht ausdr�cklich schriftlich vorher seine Zustimmung erteilt hat. Die bereitgestellten Informationen auf dieser Webseite wurden sorgf�ltig gepr�ft und werden regelm��ig aktualisiert. Jedoch kann keine Gew�hr daf�r �bernommen werden, dass alle Informationen zu jeder Zeit vollst�ndig, richtig und in letzter Aktualit�t dargestellt sind. Dies gilt insbesondere f�r alle Verbindungen zu anderen Webseiten, auf die verwiesen wird. Alle Informationen k�nnen ohne vorherige Ank�ndigung ge�ndert, entfernt oder erg�nzt werden. Die angebotenen Dienste d�rfen nicht von Nutzern abgerufen werden und verwendet werden, die der US-Regierung oder einer US-Regierungsorganisation angeh�ren. In diesem Fall bedarf es einer gesonderten Vereinbarung. 
+    </p>
+ </section1>
+  <dualColumn>
+    <title>Dienste am PC.</title>
+    <heading>
+            BMW Assist und BMW Online im Internet.
+        </heading>
+    <p>
+            Die Dienste von BMW Assist und BMW Online sind mit Ihrem
+            Fahrzeug
+            verkn�pft. So k�nnen Sie auf diesen Seiten bequem viele
+            Daten abrufen
+            und verwalten, die Sie dann einfach an Ihr Fahrzeug
+            senden und dort
+            verwenden. Ein Beispiel: Alle Adressen in Ihrem
+            Online-Adressbuch
+            k�nnen Sie als Ziele in Ihr Navigationssystem
+            �bernehmen.
+        </p>
+    <section1>
+      <heading>Routenplanung </heading>
+      <p>
+                Als weltweit erster Automobilhersteller bietet BMW seinen Kunden die M�glichkeit, Routen aus dem Internet ans Fahrzeug zu �bertragen, um sie dort ins Navigationssystem zu �bernehmen. Planen Sie im Internet Ihre eigenen Routen oder erleben Sie exklusive BMW Routen vorab multimedial.
+            </p>
+    </section1>
+    <section1>
+      <heading>Meine Info</heading>
+      <p>
+                Ihre Schnittstelle zwischen PC und Fahrzeug: Sie k�nnen Zielkoordinaten, Telefonnummern und Kurzmitteilungen an Ihren BMW senden, um sie im Navigationssystem und im Autotelefon zu verwenden. Des Weiteren k�nnen Sie �ber die Google Send to Car Funktion unter http://maps.google.de Adressen von einem PC direkt in Ihren BMW senden. Diese k�nnen dann per Knopfdruck direkt in Ihr Navigationssystem �bernommen werden.        
+            </p>
+    </section1>
+    <section1>
+      <heading>Office: E-Mail</heading>
+      <p>Ihr B�ro im Fahrzeug: Mit Hilfe von BMW Online haben Sie die M�glichkeit, bis zu f�nf Mailboxen (POP3, IMAP) einzurichten und im Fahrzeug abzurufen. So k�nnen Sie bequem Ihre E-Mails lesen, schreiben und sogar l�schen (IMAP).            
+            </p>
+    </section1>
+    <section1>
+      <heading>Office: Adressbuch</heading>
+      <p>
+               Hier verwalten Sie Ihr pers�nliches Adressbuch, das Sie in Ihrem BMW Online Portal nutzen k�nnen. Sie haben die M�glichkeit, bestehende Adressen aus Outlook oder anderen Programmen (via vCards) in Ihr BMW Online Adressbuch zu importieren.      
+            </p>
+    </section1>
+    <section1>
+      <p>Der Inhalt Ihres Adressbuchs ist Ihnen dann sowohl im Internet als auch in Ihrem BMW zug�nglich. Dar�ber hinaus k�nnen die Daten ohne manuelle Eingabe ins Navigationssystem und ins Telefon �bernommen werden.
+            </p>
+    </section1>
+    <section2>
+      <heading>Profil <![CDATA[&]]> Einstellungen: Mein Profil </heading>
+      <p>
+                Alles, was die Verwaltung Ihrer eigenen Adress- und Zugangsdaten
+                betrifft, finden Sie auf dieser Seite. 
+            </p>
+    </section2>
+    <section2>
+      <heading>Profil <![CDATA[&]]> Einstellungen: Meine Dienste im Fahrzeug: Meine News bearbeiten </heading>
+      <p>Unter diesem Men�punkt haben Sie die M�glichkeit, bis zu 10 RSS Feeds festzulegen, 
+                deren aktuellste Meldungen Ihnen dann umgehend in Ihrem Fahrzeug zur Verf�gung stehen. 
+            </p>
+    </section2>
+    <section2>
+      <heading>Profil <![CDATA[&]]> Einstellungen: Meine Dienste im Fahrzeug: Fahrzeugeinstellungen </heading>
+      <p>Hier bestimmen Sie, wie sich Ihr Endger�t im Fahrzeug verhalten soll - z.B. 
+                welcher Inhalt auf der Startseite angezeigt wird. 
+            </p>
+    </section2>
+    <section2>
+      <heading>Hilfe: FAQs </heading>
+      <p>Hier finden Sie Antworten zu h�ufig gestellten Fragen rund um BMW ConnectedDrive. 
+            </p>
+    </section2>
+    <link>
+      <href>javascript:centerPopup('../cdp_static/html/o_1_1_1_internet_dienste.html','popupUeberBMW','633','603');</href>
+      <label>�bersicht "Dienste im Internet" �ffnen</label>
+      <img_src>../cdp_static/images/1x1_trans.gif</img_src>
+		<img_label>Handleiding BMW ConnectedDrive</img_label>					
+		<value>Handleiding BMW ConnectedDrive</value>
+    </link>
+  </dualColumn>
+	<highlight>changeUsername</highlight>
+  <section>
+    <heading>Meine Info senden </heading>
+		<p>
+			Unter diesem Punkt haben Sie Zugriff auf die letzten 20 SMS, die Sie �ber BMW Assist versandt haben. Von hier aus k�nnen Sie eine 
+			SMS erneut senden oder versandte SMS aus dem Archiv l�schen.
+		</p>
+		<p>
+			Unter diesem Punkt haben Sie Zugriff auf die letzten 20 SMS, die Sie �ber BMW Assist versandt haben. Von hier aus k�nnen Sie eine 
+			SMS erneut senden oder versandte SMS aus dem Archiv l�schen.
+		</p>
+    <link  id="help"  mode="standard" >
+        	<label>Download Bedienungsanleitung iPhone App</label>
+        	<info>Download Bedienungsanleitung iPhone App</info>
+        	<url>../cdp_static/downloads/zba_myBMWremote_DE.pdf</url>
+       		<href>loginpage</href>
+        	<target>_self</target>
+        	<img_src>../cdp_static/images/1x1_trans.gif</img_src>
+        	<img_label>Anmelden</img_label>                                          
+    </link>
+    <text>
+			Hier geben Sie die Informationen ein, z. B. Adresse, Telefonnummer und
+			eine Mitteilung, die Sie an das Fahrzeug senden wollen.
+		</text>
+    <text>
+			Sie k�nnen sich auch �ber eine SMS dar�ber benachrichtigen lassen,
+			dass eine aktuelle Meine Info im Fahrzeug vorliegt. Bei Bedarf kann
+			in der Eingabemaske eine entsprechende Antwort vordefiniert werden,
+			die aus dem Fahrzeug per Knopfdruck zur�ckgesendet werden kann.
+		</text>
+  </section>
+  <section>
+    <heading>Meine Info senden </heading>
+		<p>
+			Unter diesem Punkt haben Sie Zugriff auf die letzten 20 SMS, die Sie �ber BMW Assist versandt haben. Von hier aus k�nnen Sie eine 
+			SMS erneut senden oder versandte SMS aus dem Archiv l�schen.
+		</p>
+    <text>
+			Hier geben Sie die Informationen ein, z. B. Adresse, Telefonnummer und
+			eine Mitteilung, die Sie an das Fahrzeug senden wollen.
+		</text>
+   <text>
+			Sie k�nnen sich auch �ber eine SMS dar�ber benachrichtigen lassen,
+			dass eine aktuelle Meine Info im Fahrzeug vorliegt. Bei Bedarf kann
+			in der Eingabemaske eine entsprechende Antwort vordefiniert werden,
+			die aus dem Fahrzeug per Knopfdruck zur�ckgesendet werden kann.
+		</text>
+  </section>
+<teasers>
+    <heading>Meine Info �ber ausgew�hlte Partner</heading>
+    <teaser>
+      <img>
+        <src>../cdp_static/images/teaser_googlemaps.jpg</src>
+        <width>86a</width>
+        <height>48a</height>
+      </img>
+      <link>
+        <href>http://maps.google.at</href>
+        <text>Google Maps</text>
+      </link>
+      <text>
+				Unternehmen und Adressen finden mit dem Online-Kartendienst von
+				Google.
+			</text>
+    </teaser>
+    <teaser>
+      <img>
+        <src>../cdp_static/images/teaser_viamichelin.jpg</src>
+        <width>86</width>
+        <height>48</height>
+      </img>
+      <link>
+        <href>http://www.viamichelin.at</href>
+        <text>ViaMichelin</text>
+      </link>
+      <text>
+				ViaMichelin-Suchergebnis in Ihr Fahrzeug schicken.
+			</text>
+    </teaser>
+    <teaser>
+      <img>
+        <src>../cdp_static/images/teaser_hrs.jpg</src>
+        <width>86a</width>
+        <height>48a</height>
+      </img>
+      <link>
+        <href>http://www.hrs.at</href>
+        <text>HRS</text>
+      </link>
+      <text>
+				�ber den Hotel Reservation Service Hotels buchen und das Ziel 
+				in Ihr Fahrzeug schicken.
+			</text>
+    </teaser>
+  </teasers>
+</content>

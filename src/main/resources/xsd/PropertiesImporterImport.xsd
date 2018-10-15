@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" jaxb:version="2.1">
+  <xs:element name="FAHRZEUGTEXTE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="HEADER"/>
+        <xs:element ref="TEXTE"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HEADER">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ERZEUGER"/>
+        <xs:element ref="ERZEUGUNGSDATUM"/>
+        <xs:element ref="GUELTIGKEIT"/>
+        <xs:element ref="I-STUFE"/>
+        <xs:element ref="BAUSTAND"/>
+        <xs:element ref="KOMMENTAR"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ERZEUGER" type="xs:string"/>
+  <xs:element name="ERZEUGUNGSDATUM" type="xs:integer"/>
+  <xs:element name="GUELTIGKEIT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TEXTTYP"/>
+        <xs:element ref="VERBAUUNGSORT"/>
+        <xs:element ref="SGFAMILIE"/>
+        <xs:element ref="FZG-PROJEKT"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TEXTTYP">
+    <xs:complexType>
+      <xs:attribute name="NAME" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VERBAUUNGSORT">
+    <xs:complexType>
+      <xs:attribute name="NAME" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SGFAMILIE">
+    <xs:complexType>
+      <xs:attribute name="NAME" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FZG-PROJEKT">
+    <xs:complexType>
+      <xs:attribute name="NAME" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="I-STUFE" type="xs:string"/>
+  <xs:element name="BAUSTAND">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="MONAT"/>
+        <xs:element ref="JAHR"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MONAT" type="xs:integer"/>
+  <xs:element name="JAHR" type="xs:integer"/>
+  <xs:element name="KOMMENTAR" type="xs:string"/>
+  <xs:element name="TEXTE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="TEXT"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TEXT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="SPRACHVARIANTE"/>
+      </xs:sequence>
+      <xs:attribute name="IDENTIFIER" use="required" type="xs:string"/>
+      <xs:attribute name="NUMIDENTIFIER" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SPRACHVARIANTE">
+    <xs:complexType mixed="true">
+      <xs:attribute name="SPRACHE" use="required" type="xs:string"/>
+      <xs:attribute name="ISONAME" type="xs:string"/>
+      <xs:attribute name="STATUS" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" jaxb:version="2.1">
+  <xs:element name="content">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="page"/>
+        <xs:element type="xs:string" name="resource"/>
+        <xs:element name="image">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="src"/>
+              <xs:element type="xs:string" name="width"/>
+              <xs:element type="xs:string" name="height"/>
+              <xs:element type="xs:string" name="alt"/>
+              <xs:element type="xs:string" name="title"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="title"/>
+        <xs:element type="xs:string" name="heading"/>
+        <xs:element type="xs:string" name="p"/>
+        <xs:element name="section1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="heading"/>
+              <xs:element type="xs:string" name="p"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dualColumn">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="title"/>
+              <xs:element type="xs:string" name="heading"/>
+              <xs:element type="xs:string" name="p"/>
+              <xs:element name="section1" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="heading" minOccurs="0"/>
+                    <xs:element type="xs:string" name="p"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="section2" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="heading"/>
+                    <xs:element type="xs:string" name="p"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="link">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="href"/>
+                    <xs:element type="xs:string" name="label"/>
+                    <xs:element type="xs:string" name="img_src"/>
+                    <xs:element type="xs:string" name="img_label"/>
+                    <xs:element type="xs:string" name="value"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="highlight"/>
+        <xs:element name="section" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="heading"/>
+              <xs:element type="xs:string" name="p" maxOccurs="unbounded" minOccurs="0"/>
+              <xs:element name="link" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="label"/>
+                    <xs:element type="xs:string" name="info"/>
+                    <xs:element type="xs:string" name="url"/>
+                    <xs:element type="xs:string" name="href"/>
+                    <xs:element type="xs:string" name="target"/>
+                    <xs:element type="xs:string" name="img_src"/>
+                    <xs:element type="xs:string" name="img_label"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id"/>
+                  <xs:attribute type="xs:string" name="mode"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="text" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="teasers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="heading"/>
+              <xs:element name="teaser" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="img">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="src"/>
+                          <xs:element type="xs:string" name="width"/>
+                          <xs:element type="xs:string" name="height"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="link">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:anyURI" name="href"/>
+                          <xs:element type="xs:string" name="text"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="text"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
