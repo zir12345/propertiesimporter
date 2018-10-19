@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="05e869d6-097b-45cc-bb85-2ca4b6a21a9f" name="Default" comment="[T3.5-18] PropertiesImporter corrected migrated to KBI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/reports/cool_importxml.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/cool_importxml.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/reports/nbt_ZINORO_importxml.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/nbt_ZINORO_importxml.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/reports/nbt_importexcel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/nbt_importexcel.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/reports/nbt_importxml.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/nbt_importxml.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/reports/portal_test_availableproperties.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/portal_test_availableproperties.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/reports/portal_test_missingtextsids.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/reports/portal_test_missingtextsids.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,11 +56,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeltaEvent.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeltaEvent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bmw/kpi/propertiesimporter/bundle/DeltaEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+            <state relative-caret-position="153">
+              <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelReader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bmw/kpi/propertiesimporter/ExcelReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#3394#3402#0" expanded="true" />
+                <element signature="e#3454#3462#0" expanded="true" />
+                <element signature="e#4759#4767#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,15 +116,6 @@
                 <element signature="e#13275#13276#0" expanded="true" />
                 <element signature="e#13299#13300#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertiesImporter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bmw/kpi/propertiesimporter/PropertiesImporter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -220,151 +231,45 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="textwerkpropertiesimporter" type="b2602c69:ProjectViewProjectNode" />
               <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="inspectionProfiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="textwerkpropertiesimporter" type="b2602c69:ProjectViewProjectNode" />
               <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="textwerkpropertiesimporter" type="b2602c69:ProjectViewProjectNode" />
               <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="textwerkpropertiesimporter" type="b2602c69:ProjectViewProjectNode" />
               <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="textwerkpropertiesimporter" type="b2602c69:ProjectViewProjectNode" />
               <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="propertiesimporter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="propertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="bundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assembly" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="xsd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="imports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="propertyimporter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="textwerkpropertiesimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="textwerk" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in propertiesimporter (2)">
+  <component name="RunManager" selected="JUnit.All in propertiesimporter (3)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -414,6 +319,23 @@
       <patterns />
     </configuration>
     <configuration name="All in propertiesimporter (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="propertiesimporter" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="All in propertiesimporter (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="propertiesimporter" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -470,29 +392,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PropertyImporterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="propertiesimporter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bmw.cdp.tools.propertyimporter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.bmw.cdp.tools.propertyimporter" />
-      <option name="MAIN_CLASS_NAME" value="com.bmw.cdp.tools.propertyimporter.PropertyImporterTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -532,19 +431,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PropertyImporterTest" />
       <item itemvalue="JUnit.All in propertiesimporter" />
       <item itemvalue="JUnit.PropertiesImporterTest" />
       <item itemvalue="JUnit.All in propertiesimporter (1)" />
       <item itemvalue="JUnit.All in propertiesimporter (2)" />
+      <item itemvalue="JUnit.All in propertiesimporter (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in propertiesimporter (3)" />
         <item itemvalue="JUnit.All in propertiesimporter (2)" />
         <item itemvalue="JUnit.All in propertiesimporter (1)" />
         <item itemvalue="JUnit.PropertiesImporterTest" />
         <item itemvalue="JUnit.All in propertiesimporter" />
-        <item itemvalue="JUnit.PropertyImporterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -619,9 +518,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PropertiesImporterTest - 2018.09.20 at 10h 29m 12s.xml">
-      <configuration name="PropertiesImporterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PropertiesImporterTest - 2018.09.20 at 10h 29m 58s.xml">
       <configuration name="PropertiesImporterTest" configurationId="JUnit" />
     </history-entry>
@@ -649,24 +545,26 @@
     <history-entry file="All_in_propertiesimporter_(2) - 2018.10.19 at 16h 13m 08s.xml">
       <configuration name="All in propertiesimporter (2)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_propertiesimporter_(3) - 2018.10.19 at 17h 33m 55s.xml">
+      <configuration name="All in propertiesimporter (3)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32900432" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.11673774" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2249467" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22921109" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -977,13 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bmw/kpi/propertiesimporter/ExcelReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bmw/kpi/propertiesimporter/PropertiesImporter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1054,8 +945,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bmw/kpi/propertiesimporter/bundle/DeltaEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+        <state relative-caret-position="153">
+          <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bmw/kpi/propertiesimporter/ExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#3394#3402#0" expanded="true" />
+            <element signature="e#3454#3462#0" expanded="true" />
+            <element signature="e#4759#4767#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
