@@ -16,7 +16,7 @@ Introduce the dependency in pom.xml
 
 ```
 <dependency>
-	<groupId>com.bmw.cdp.propertiesimporter</groupId>
+	<groupId>com.bmw.kpi.propertiesimporter</groupId>
 	<artifactId>propertiesimporter</artifactId>
 	<version>1.0.0</version>
     <type>jar</type>
@@ -37,10 +37,10 @@ The test will run automatically when a clean install build will be executed.
 To use the propertiesmporter.jar standalone tool you have to download it from nexus repository
 with the following maven command in the textwerk directory of the project nbt | portal_bmwlive root:
 
-mvn org.apache.maven.plugins:maven-dependency-plugin:3.0.2:copy -Dartifact=com.bmw.cdp.propertiesimporter:propertiesimporter:1.0.0:jar -DoutputDirectory=.
+mvn org.apache.maven.plugins:maven-dependency-plugin:3.0.2:copy -Dartifact=com.bmw.kpi.propertiesimporter:propertiesimporter:1.0.0:jar -DoutputDirectory=.
 
 Groovy:
-mvn "org.apache.maven.plugins:maven-dependency-plugin:3.0.2:copy -Dartifact=com.bmw.cdp.propertiesimporter:propertiesimporter:LATEST:jar -DoutputDirectory=."
+mvn "org.apache.maven.plugins:maven-dependency-plugin:3.0.2:copy -Dartifact=com.bmw.kpi.propertiesimporter:propertiesimporter:LATEST:jar -DoutputDirectory=."
 
 
 

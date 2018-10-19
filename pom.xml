@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.bmw.cdp.propertiesimporter</groupId>
+	<groupId>com.bmw.kpi.propertiesimporter</groupId>
 	<artifactId>propertiesimporter</artifactId>
 	<version>1.1.0</version>
 	<packaging>jar</packaging>
@@ -20,11 +20,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>proj-snapshots</id>
-			<url>https://licdci01.bmwgroup.net:11000/nexus/content/repositories/connecteddrive_snapshots</url>
+			<url>https://licdci01.bmwgroup.net:11000/nexus/content/repositories/kpiintelligence_snapshots</url>
 		</snapshotRepository>
 		<repository>
 			<id>proj-releases</id>
-			<url>https://licdci01.bmwgroup.net:11000/nexus/content/repositories/connecteddrive_releases</url>
+			<url>https://licdci01.bmwgroup.net:11000/nexus/content/repositories/kpiintelligence_releases</url>
 		</repository>
 	</distributionManagement>
 
@@ -68,7 +68,7 @@
 			        <appendAssemblyId>false</appendAssemblyId>
 					<archive>
 						<manifest>
-							<mainClass>com.bmw.cdp.propertiesimporter.PropertiesImporter</mainClass>
+							<mainClass>com.bmw.kpi.propertiesimporter.PropertiesImporter</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
