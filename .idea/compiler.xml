@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="fragment-service" target="1.5" />
       <module name="propertiesimporter" target="1.7" />
     </bytecodeTargetLevel>
   </component>
